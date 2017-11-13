@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="inacap.cl.appinacap1.MainActivity">
+
+    <TextView android:id="@+id/txv_titulo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_app"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText android:id="@+id/edt_patente"
+        android:hint="@string/fondo"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:hint="@string/hint_marca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spn_marca"
+        android:layout_width="fill_parent"
+        android:hint="@string/hint_marca"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <EditText
+        android:id="@+id/edt_modelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_modelo"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edt_ano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_ano"
+        android:maxLength="4"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edt_uf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_uf"
+        android:maxLength="12"
+        android:inputType="numberDecimal"/>
+
+    <Button android:id="@+id/btn_calcular"
+        android:hint="@string/btn_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/rxv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>

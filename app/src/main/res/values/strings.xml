@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Seguros</string>
+    <string name="titulo_app">Calculo de Seguro Accidentes</string>
+    <string name="hint_patente">Patente</string>
+    <string name="titulo_res">Resultado Seguro</string>
+    <string name="fondo">Ingrese patente</string>
+    <string name="hint_modelo">Ingrese modelo</string>
+    <string name="hint_resModelo">Marca</string>
+    <string name="hint_marca">Marca</string>
+    <string name="hint_resMarca">Modelo</string>
+    <string name="hint_resAno">Año</string>
+    <string name="hint_resUf">Uf</string>
+    <string name="hint_antiguedad">Antiguedad</string>
+    <string name="hint_asegurable">Asegurable</string>
+    <string name="hint_ano">Ingrese año</string>
+    <string name="hint_valor_seguro">Valor Seguro $</string>
+
+    <string name="hint_uf">Ingrese Valor UF</string>
+    <string name="btn_calcular">Calcular</string>
+
+</resources>
